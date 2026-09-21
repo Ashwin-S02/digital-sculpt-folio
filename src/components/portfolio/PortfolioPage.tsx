@@ -166,7 +166,7 @@ function Magnet({ children }: { children: ReactNode }) {
 function ContactButton() {
   return (
     <Button asChild variant="portfolio" size="portfolio">
-      <a href="mailto:hello@jack.studio">Contact me</a>
+      <a href="mailto:">Contact me</a>
     </Button>
   );
 }
@@ -179,7 +179,7 @@ function HeroSection() {
           <a className="transition-opacity duration-200 hover:opacity-70" href="#about">About</a>
           <a className="transition-opacity duration-200 hover:opacity-70" href="#services">Price</a>
           <a className="transition-opacity duration-200 hover:opacity-70" href="#projects">Projects</a>
-          <a className="transition-opacity duration-200 hover:opacity-70" href="mailto:hello@jack.studio">Contact</a>
+          <a className="transition-opacity duration-200 hover:opacity-70" href="mailto:">Contact</a>
         </nav>
       </FadeIn>
 
