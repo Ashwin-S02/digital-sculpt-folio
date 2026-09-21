@@ -16,12 +16,20 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        portfolio:
+          "border-0 bg-contact text-contact-foreground shadow-contact outline-2 outline-offset-[-3px] outline-contact-foreground transition-[transform,filter] duration-200 hover:scale-[1.03] hover:brightness-110",
+        portfolioOutline:
+          "border-2 border-foreground bg-transparent text-foreground transition-colors duration-200 hover:bg-foreground/10",
       },
       size: {
         default: "h-9 px-4 py-2",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
+        portfolio:
+          "h-auto rounded-full px-8 py-3 text-xs uppercase tracking-widest sm:px-10 sm:py-3.5 sm:text-sm md:px-12 md:py-4 md:text-base",
+        portfolioOutline:
+          "h-auto rounded-full px-8 py-3 text-sm uppercase tracking-widest sm:px-10 sm:py-3.5 sm:text-base",
       },
     },
     defaultVariants: {
