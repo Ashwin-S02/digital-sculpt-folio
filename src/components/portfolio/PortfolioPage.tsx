@@ -9,7 +9,7 @@ import {
 } from "framer-motion";
 
 import { Button } from "@/components/ui/button";
-import portraitAsset from "@/assets/jack-portrait.png.asset.json";
+import portraitAsset from "@/assets/jack-portrait-clean.png.asset.json";
 
 const portrait = portraitAsset.url;
 
