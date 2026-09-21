@@ -9,9 +9,9 @@ import {
 } from "framer-motion";
 
 import { Button } from "@/components/ui/button";
-import portraitAsset from "@/assets/jack-portrait-clean4.png.asset.json";
 
-const portrait = portraitAsset.url;
+const portrait =
+  "https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png";
 
 const marqueeImages = [
   "https://motionsites.ai/assets/hero-space-voyage-preview-eECLH3Yc.gif",
